@@ -14,7 +14,7 @@ tabsArray.forEach((ele) => {
         });
         let info = document.querySelectorAll(`.${e.currentTarget.dataset.cont}`);
         info.forEach((ele) => {
-            ele.style.display = 'block';
+            ele.style.display = 'flex';
         })
     });
 });
